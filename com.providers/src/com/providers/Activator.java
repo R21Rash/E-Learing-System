@@ -13,7 +13,7 @@ public class Activator implements BundleActivator {
 
 	public void start(BundleContext bundleContext) throws Exception {
 		System.out.println("this is rashad testing");
-		System.out.println("hii");
+	System.out.println("Final testing commit");
 	}
 
 	public void stop(BundleContext bundleContext) throws Exception {
