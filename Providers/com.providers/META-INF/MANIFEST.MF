@@ -1,0 +1,6 @@
+Bundle-Name: User Management Service
+Bundle-SymbolicName: com.providers
+Bundle-Version: 1.0.0
+Bundle-Activator: com.providers.UserManagementService
+Export-Package: com.providers
+Import-Package: org.osgi.framework
