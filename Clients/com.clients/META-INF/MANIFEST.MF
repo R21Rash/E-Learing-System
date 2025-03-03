@@ -1,0 +1,5 @@
+Bundle-Name: Client Bundle
+Bundle-SymbolicName: com.clients
+Bundle-Version: 1.0.0
+Bundle-Activator: com.clients.ClientActivator
+Import-Package: org.osgi.framework, com.providers
