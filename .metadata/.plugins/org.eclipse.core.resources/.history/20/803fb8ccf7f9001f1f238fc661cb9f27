@@ -1,0 +1,23 @@
+package com.providers;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public boolean registerUser(String name, String email, String role) {
+	    if ("Admin".equalsIgnoreCase(role)) {
+	        System.out.println("Registering Admin: " + name);
+	    } else {
+	        System.out.println("Registering Student: " + name);
+	    }
+	    return true;
+	}
+
+	@Override
+	public boolean loginUser(String email, String password) {
+		System.out.println("Logging in user: "+ email);
+		return true;
+	}
+	
+	
+
+}

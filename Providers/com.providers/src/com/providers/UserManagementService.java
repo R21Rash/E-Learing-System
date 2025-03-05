@@ -9,16 +9,21 @@ public class UserManagementService implements BundleActivator {
 
     @Override
     public void start(BundleContext context) throws Exception {
-        System.out.println("User Management Service Started...");
+        System.out.println("\n User Management Service Started...");
 
-        // Ensure UserServiceImpl is properly referenced
-        UserService userService = new UserServiceImpl(); 
+        // Create service instance
+        UserService userService = new UserServiceImpl();
+        
+        // Register service
         registration = context.registerService(UserService.class.getName(), userService, null);
+        System.out.println(" UserService registered successfully.");
     }
-
     @Override
     public void stop(BundleContext context) throws Exception {
-        System.out.println("User Management Service Stopped...");
-        registration.unregister();
+        System.out.println("\n User Management Service Stopped...");
+        if (registration != null) {
+            registration.unregister();
+            System.out.println(" UserService unregistered.");
+        }
     }
 }
