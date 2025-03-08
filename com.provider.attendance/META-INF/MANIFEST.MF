@@ -1,0 +1,6 @@
+Bundle-Name: Attendance
+Bundle-SymbolicName: com.provider.attendance
+Bundle-Version: 1.0.0
+Bundle-Activator: com.provider.attendance.AttendanceActivator
+Export-Package: com.provider.attendance
+Import-Package: org.osgi.framework

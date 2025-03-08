@@ -1,0 +1,5 @@
+Bundle-Name: Admin
+Bundle-SymbolicName: com.clients.admin
+Bundle-Version: 1.0.0
+Bundle-Activator: com.clients.admin.AdminDashboard
+Import-Package: com.provider.attendance, com.providers, org.osgi.framework
