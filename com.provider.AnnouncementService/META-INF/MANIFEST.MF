@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AnnouncementService
+Bundle-SymbolicName: com.provider.announcementservice
+Bundle-Version: 1.0.0
+Bundle-Activator: com.provider.announcementservice.AnnouncementActivator
+Bundle-Vendor: PROVIDER
+Export-Package: com.provider.announcementservice
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework;version="[1.10.0,2.0.0)"
